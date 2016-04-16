@@ -1,0 +1,41 @@
+ul  {
+    list-style: none;
+    padding: 0;
+
+}
+
+.pt23 {
+    padding-top: 23px;
+}
+
+.pt8 {
+    padding-top: 8px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.row-label {
+    display: block;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.percentage:before {
+    content: '%';
+    position: absolute;
+    display: inline-block;
+    top: 6px;right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.percentage {
+    position: relative;
+    display: inline-block;
+}
